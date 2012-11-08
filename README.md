@@ -1,21 +1,22 @@
 # Bash it
 
-**Bash it** is a mash up of my own bash commands and scripts, other bash stuff I have found.
-
+### forked from [revans/bash-it](https://github.com/revans/bash-it)
+**Bash it** is a mash up of revan's own bash commands and scripts, other bash stuff he has found.
 (And a shameless ripoff of [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh). :)
-
 Includes autocompletion, themes, aliases, custom functions, a few stolen pieces from Steve Losh, and more.
+
+## Envision Modifications
+### envision branch
+Created the envision template and theme (based off pete theme) to focus primarily on displaying git repository information as the existing themes and templates seemed to be heavily focused around ruby and other technologies which threw errors because the packages were not installed and they also cluttered up the prompt with unnecessary information. The colours have been adjusted to clearly highlight the current branch and branch status whilst making the other information more subtle in comparison.
+
+### envision-clean branch
+Includes all of the envision branch changes plus we also removed all of the plugins, aliases and completions that were irrelevant to our environment here at envision.  You probably don't want this branch as it's specific to our needs.
 
 ## Install
 
-1. Check a clone of this repo: `git clone http://github.com/revans/bash-it.git ~/.bash_it`
+1. Check a clone of this repo: `git clone http://github.com/wwjamieson3/bash-it.git ~/.bash_it`
 2. Run `~/.bash_it/install.sh` (it automatically backs up your `~/.bash_profile`)
 3. Edit your `~/.bash_profile` file in order to customize bash-it.
-
-**NOTE:**
-The install script will also prompt you asking if you use [Jekyll](https://github.com/mojombo/jekyll).
-This is to set up the `.jekyllconfig` file, which stores info necessary to use the Jekyll plugin.
-
 
 ## Help Screens
 
@@ -38,21 +39,3 @@ For custom scripts, and aliases, just create the following files (they'll be ign
 
 Anything in the custom directory will be ignored, with the exception of `custom/example.bash`.
 
-## Themes
-
-There are a few bash it themes.  If you've created your own custom prompts, I'd love it if you shared with everyone else!  Just submit a Pull Request to me (revans).
-
-## Help out
-
-I think everyone has their own custom scripts accumulated over time.  And so, following in the footsteps of oh-my-zsh, bash it is a framework for easily customizing your bash shell. Everyone's got a custom toolbox, so let's start making them even better, **as a community!**
-
-Send me a pull request and I'll merge it as long as it looks good. If you change an existing command, please give an explanation why. That will help a lot when I merge your changes in.
-
-Thanks, and happing bashing!
-
-
-## Contributors
-
-* [List of contributors][contribute]
-
-[contribute]: https://github.com/revans/bash-it/contributors
