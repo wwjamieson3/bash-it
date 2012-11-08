@@ -17,7 +17,7 @@ Includes all of the envision branch changes plus we also removed all of the plug
 1. Check a clone of this repo: `git clone http://github.com/wwjamieson3/bash-it.git ~/.bash_it`
 2. Checkout the branch you want to use `cd ~/.bash_it/ && git checkout envision`
 3. Run `~/.bash_it/install.sh` (it automatically backs up your `~/.bash_profile`)
-4. Edit your `~/.bash_profile` file in order to customize bash-it.
+4. Install envision template `cp -f ~/.bash_it/template/envision.template.bash ~/.bash_profile`
 
 ## Help Screens
 
